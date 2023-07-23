@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+.container {
+  padding: 80px 9%;
+  padding-right: 0px;
+  margin-right: 0px;
+  padding-bottom: 100px;
+  margin-left: 125px;
+}
+
+.container .heading {
+  text-align: center;
+  padding-bottom: 50px;
+  color: #fff;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+}
+
+body {
+  font-family: arial;
+}
+
+.box-container {
+  
+  display: block;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.card {
+ 
+  width:300px;
+  height:290px;
+  display: inline-table;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin: 15px;
+}
+.card a{
+  color: black;
+}
+.image img {
+  width: 300px;
+  height: 170px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.des {
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+}

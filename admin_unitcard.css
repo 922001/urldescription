@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+.container {
+  padding: 80px 9%;
+  padding-bottom: 100px;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-left: 205px;
+
+ 
+}
+
+.container .heading {
+  text-align: center;
+  padding-bottom: 50px;
+  color: #fff;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+}
+
+
+.box-container {
+    margin: 2%;
+    display: block;
+    box-sizing: border-box;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.card {
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    display:inline-table;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 17px;
+  }
+  .card1 {
+    margin-left:100px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    display:inline-table;
+    justify-content:space-around;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+}
+
+  
+  .image img {
+    width: 300px;
+    height: 150px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  .des {
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  button{
+    margin-top: 5px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+  }
+  button a{
+    color: #fff;
+  }
+  
+  button:hover {
+    letter-spacing: 1px;
+  }
+  
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+}
